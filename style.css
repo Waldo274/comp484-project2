@@ -1,0 +1,86 @@
+
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3edf9;
+    color: #40364d;
+    text-align: center;
+    margin: 25px;
+}
+
+/* Header */
+header {
+    border-bottom: 1px solid #c5b5d8;
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: #73559b;
+}
+
+/* Main layout */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Mochi's image */
+.pet-image-container {
+    padding: 10px;
+}
+
+.pet-image {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+
+/* Pet information */
+.dashboard {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 450px;
+    margin: 20px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard div {
+    margin-bottom: 10px;
+}
+
+/* Mochi's messages */
+.pet-message {
+    color: #333333;
+    font-style: italic;
+    margin: 15px auto;
+}
+
+/* Action buttons */
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.button-container button {
+    background-color: #a58acb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 18px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: #8064a9;
+}
